@@ -1,0 +1,19 @@
+print("WELCOME TO YOUR OWN CALCULATOR")
+n=float(input("Enter your first number"))
+m=float(input("Enter your second number"))
+add=0
+sub=0
+div=0
+mul=0
+      
+x=input("what operation u wanna perform:add, mul, div or sub")
+
+if (x=="add"):
+    print(n+m)
+elif (x=="sub"):
+    print(n-m)
+elif(x=="div"):
+    print(n/m)
+else:
+    print(n*m)
+      
