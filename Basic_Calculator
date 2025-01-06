@@ -16,4 +16,4 @@ elif(x=="div"):
     print(n/m)
 else:
     print(n*m)
-      
+
